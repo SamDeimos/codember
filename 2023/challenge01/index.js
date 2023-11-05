@@ -1,5 +1,5 @@
 const fs = require("fs");
-const DATA_READ = "../data/words.txt";
+const DATA_READ = "./data/words.txt";
 
 fs.readFile(DATA_READ, "utf8", getContent);
 
